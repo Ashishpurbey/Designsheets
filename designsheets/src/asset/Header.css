@@ -1,8 +1,9 @@
 .nav_dimension{
   height:62px !important;
   max-width: 1558px;
-  min-width: 450px;
-
+  /* min-width: 450px; */
+ margin-left:auto;
+ margin-right: auto;
   /* border:2px solid black; */
   margin:auto;
   padding-left:10px;

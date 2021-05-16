@@ -4,44 +4,23 @@ import '../asset/Review.css'
 
 const Review = () => {
     return (
-        <Carousel fade className="carousel">
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/facebook_icon.png"
-            alt="First slide"
-            className='img'
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
-            alt="Second slide"
-          />
-      
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
-      
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <Carousel className='carousel'>
+      <Carousel.Item fluid>
+         <p>What people say about us</p>
+         <p>Student</p>
+         <p>“Design Sheets is a great initiative, and would prove to be highly useful for various architecture students, firms and even beyond. The various templates they offer are simple yet apt for the job with multiple options. With an interface that is easy</p>
+      </Carousel.Item>
+      <Carousel.Item fluid>
+      <p>What people say about us</p>
+         <p>Student</p>
+         <p>“Design Sheets is a great initiative, and would prove to be highly useful for various architecture students, firms and even beyond. The various templates they offer are simple yet apt for the job with multiple options. With an interface that is easy</p>
+      </Carousel.Item>
+      <Carousel.Item fluid>
+      <p>What people say about us</p>
+         <p>Student</p>
+         <p>“Design Sheets is a great initiative, and would prove to be highly useful for various architecture students, firms and even beyond. The various templates they offer are simple yet apt for the job with multiple options. With an interface that is easy</p>
+      </Carousel.Item>
+    </Carousel>
     )
 }
 
